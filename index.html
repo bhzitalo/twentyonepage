@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twenty One Pilots</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header> 
+        <h1>Twenty One Pilots</h1>
+        <p>O melhor duo de todos os tempos</p>
+
+        <nav>
+            <ul>
+                <li><a href="#historia">Sobre</a></li>
+                <li><a href="#galeria">Carreira</a></li>
+                <li><a href="#discografia">Discografia</a></li>
+            </ul>
+        </nav>
+    </header> <!--- Fim do cabeçalho --->
+    
+    <main>
+        <!--- Primeira seção ---->
+        <section id="historia">
+            <div class="historia">
+                <h2>História</h2>
+                <img src="img/cover.jpg" alt="Twenty One Pilots" width="750" class="capa">
+                <article>
+                    <p>
+                        Formada em 2009 em Columbus, Ohio, a banda surgiu como um trio e se consolidou globalmente em 2011 com a entrada do baterista Josh Dun, 
+                        que se uniu ao vocalista e multi-instrumentista Tyler Joseph, dando forma definitiva à identidade da banda; conhecida por desafiar classificações 
+                        de gênero, o duo funde hip-hop, indie rock, synth-pop e reggae em uma sonoridade única, cujo nome foi inspirado na peça All My Sons, de Arthur Miller, 
+                        refletindo dilemas morais e a responsabilidade pelas escolhas de vida, e que, após dois álbuns independentes, alcançou projeção mundial com 
+                        Blurryface (2015), o primeiro álbum da história a ter todas as faixas certificadas com pelo menos disco de ouro, transformando letras introspectivas e 
+                        performances explosivas em um hino para uma legião global de fãs — a Skeleton Clique — e reforçando a ideia de que, no fim, “nós somos Twenty One Pilots e vocês também”.
+                    </p>
+                </article>
+            </div>        
+        </section> <!--- Fim da primeira seção --->
+
+        <!--- Segunda seção --->
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="carrossel">
+                <img src="img/carrossel1.jpg" class="ativa">
+                <img src="img/carrossel2.jpg">
+                <img src="img/carrossel3.jpg">
+                <img src="img/carrossel4.jpg">
+                <img src="img/carrossel5.jpg">
+                <img src="img/carrossel6.jpg">
+                <img src="img/carrossel7.jpg">
+                <img src="img/carrossel8.jpg">
+                <img src="img/carrossel9.jpg">
+                <img src="img/carrossel10.jpg">
+            </div>
+            <div class="botoes">
+                <button onclick="anterior()">Anterior</button>
+                <button onclick="proximo()">Próximo</button>
+            </div>
+        </section>
+
+        <!--- Discografia --->
+        <section id="discografia">
+            <h2>Discografia</h2>
+            <!--- Tabela --->
+            <table class="discografia" border="1" cellpadding="10">
+                <tr>
+                    <th>Capa</th>
+                    <th>Título</th>
+                    <th>Tipo</th>
+                    <th>Lançamento</th>
+                    <th>Download</th>
+                </tr>
+                <tr>
+                    <td><img src="img/doubt.jpg" alt="Doubt (demo)" width="100"></td>
+                    <td>Doubt (demo)</td>
+                    <td>Single</td>
+                    <td>2025</td>
+                    <td><a href="albuns/doubt-demo.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/breach.jpg" alt="Breach" width="100"></td>
+                    <td>Breach</td>
+                    <td>Álbum</td>
+                    <td>2025</td>
+                    <td><a href="albuns/breach.html">clique aqui</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="img/theline.jpg" alt="The Line" width="100"></td>
+                    <td>The Line</td>
+                    <td>Single</td>
+                    <td>2024</td>
+                    <td><a href="albuns/the-line.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/clancy.jpeg" alt="Clancy" width="100"></td>
+                    <td>Clancy</td>
+                    <td>Álbum</td>
+                    <td>2024</td>
+                    <td><a href="albuns/clancy.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/mtv.jpg" alt="MTV Unplugged" width="100"></td>
+                    <td>MTV Unplugged</td>
+                    <td>Álbum</td>
+                    <td>2023</td>
+                    <td><a href="albuns/mtv-unplugged.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/livestream.jpg" alt="Scaled and Icy Livestream" width="100"></td>
+                    <td>Scaled and Icy (Livestream Version)</td>
+                    <td>Álbum</td>
+                    <td>2021</td>
+                    <td><a href="albuns/sai-live.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/Location.jpg" alt="Location Sessions" width="100"></td>
+                    <td>Location Sessions</td>
+                    <td>EP</td>
+                    <td>2021</td>
+                    <td><a href="albuns/location-sessions.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/scaled.png" alt="Scaled and Icy" width="100"></td>
+                    <td>Scaled and Icy</td>
+                    <td>Álbum</td>
+                    <td>2021</td>
+                    <td><a href="albuns/scaled-and-icy.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/Christmas.jpeg" alt="Christmas Saves the Year" width="100"></td>
+                    <td>Christmas Saves the Year</td>
+                    <td>Single</td>
+                    <td>2020</td>
+                    <td><a href="albuns/christmas.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/levels.jpg" alt="Level of Concern" width="100"></td>
+                    <td>Level of Concern</td>
+                    <td>Single</td>
+                    <td>2020</td>
+                    <td><a href="albuns/level-of-concern.html">clique aqui</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="img/Triplet.jpg" alt="Trench 10 Triplet EP" width="100"></td>
+                    <td>Trench 10" Triplet EP</td>
+                    <td>EP</td>
+                    <td>2018</td>
+                    <td><a href="albuns/trench-ep.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/trench.jpg" alt="Trench" width="100"></td>
+                    <td>Trench</td>
+                    <td>Álbum</td>
+                    <td>2018</td>
+                    <td><a href="albuns/trench.html">clique aqui</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="img/topxmm.jpg" alt="TOPxMM" width="100"></td>
+                    <td>TOPxMM (Mutemath Sessions)</td>
+                    <td>EP</td>
+                    <td>2016</td>
+                    <td><a href="albuns/topxmm.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/cancer.jpg" alt="Cancer" width="100"></td>
+                    <td>Cancer (MCR Cover)</td>
+                    <td>Single</td>
+                    <td>2016</td>
+                    <td><a href="albuns/cancer.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/heathens.jpg" alt="Heathens" width="100"></td>
+                    <td>Heathens</td>
+                    <td>Single</td>
+                    <td>2016</td>
+                    <td><a href="albuns/heathens.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/Blurryface_Live.jpg" alt="Blurryface Live" width="100"></td>
+                    <td>Blurryface Live</td>
+                    <td>Álbum</td>
+                    <td>2016</td>
+                    <td><a href="albuns/blurryface-live.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/lclp.jpg" alt="The LC LP" width="100"></td>
+                    <td>The LC LP</td>
+                    <td>EP</td>
+                    <td>2015</td>
+                    <td><a href="albuns/the-lc-lp.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/blurryface.png" alt="Blurryface" width="100"></td>
+                    <td>Blurryface</td>
+                    <td>Álbum</td>
+                    <td>2015</td>
+                    <td><a href="albuns/blurryface.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/quiet.jpg" alt="Quiet Is Violent" width="100"></td>
+                    <td>Quiet Is Violent</td>
+                    <td>EP</td>
+                    <td>2014</td>
+                    <td><a href="albuns/quiet-is-violent.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/HoldingOnToYou.jpg" alt="Holding on to You" width="100"></td>
+                    <td>Holding on to You</td>
+                    <td>EP</td>
+                    <td>2013</td>
+                    <td><a href="albuns/hoty-ep.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/spotify.jpeg" alt="Spotify Sessions" width="100"></td>
+                    <td>Spotify Sessions</td>
+                    <td>EP</td>
+                    <td>2013</td>
+                    <td><a href="albuns/spotify-sessions.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/vessel.jpg" alt="Vessel" width="100"></td>
+                    <td>Vessel</td>
+                    <td>Álbum</td>
+                    <td>2013</td>
+                    <td><a href="albuns/vessel.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/three.jpg" alt="Three Songs" width="100"></td>
+                    <td>Three Songs</td>
+                    <td>EP</td>
+                    <td>2012</td>
+                    <td><a href="albuns/three-songs.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/ug.jpg" alt="Live at UG Studios" width="100"></td>
+                    <td>Live at UG Studios</td>
+                    <td>EP</td>
+                    <td>2011</td>
+                    <td><a href="albuns/ug-studios.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/regional.png" alt="Regional At Best" width="100"></td>
+                    <td>Regional At Best</td>
+                    <td>Álbum</td>
+                    <td>2011</td>
+                    <td><a href="albuns/regional-at-best.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/selftitle.png" alt="Twenty One Pilots" width="100"></td>
+                    <td>Twenty One Pilots</td>
+                    <td>Álbum</td>
+                    <td>2009</td>
+                    <td><a href="albuns/self-titled.html">clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/johnnyboy.jpg" alt="Johnny Boy" width="100"></td>
+                    <td>Johnny Boy</td>
+                    <td>EP</td>
+                    <td>2009</td>
+                    <td><a href="albuns/johnny-boy.html">clique aqui</a></td>
+                </tr>
+             </table>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 - Desenvolvido por um fã, sem fins lucrativos.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
