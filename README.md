@@ -1,10 +1,8 @@
-# Twenty One Pilots — Página Web
+# Twenty One Page — Página Web
 
-Este projeto é uma página web desenvolvida como atividade do curso de Desenvolvimento de Sistemas.
+Este projeto é uma página web desenvolvida como atividade do curso de Desenvolvimento de Sistemas. Esta página apresenta informações sobre a banda **Twenty One Pilots**.
 
-O objetivo do projeto é praticar HTML, a estilização com CSS e a aplicação de interações com JavaScript.
-
-Esta página apresenta informações sobre a banda **Twenty One Pilots**.
+O objetivo é praticar `HTML`, a estilização com `CSS` e a aplicação de interações com `JavaScript`.
 #### O projeto conta com:
 - Menu de navegação
 - Um carrossel de imagens
